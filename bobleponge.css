@@ -1,0 +1,80 @@
+html,
+h1 {
+    background-color: #777;
+    text-align: center;
+    height: 100px;
+    margin-top: 10px;
+    
+}
+body {margin:0;}
+
+.navbar {
+  overflow: hidden;
+  background-color: darkorange;
+  position: fixed;
+  top: 0;
+  width: 100%;
+    height: 80px;
+    font-size: 40px;
+    z-index: 1;    
+}
+.navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+   
+
+
+}
+
+.navbar a:hover {
+  background: #ddd;
+  color: black;
+
+}
+.abc{
+    padding-top: 50px;
+    color: white;
+    font-size: 60px;
+}
+.animeimg .myimages{
+            height: 500px;
+            width: 400px;
+        }
+        .animeimg .myimages img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border-radius: 5px;
+        }
+        .animeimg{
+            width: 30%;
+            max-width: max-content;
+            
+            
+}
+.img{
+    height: 500px;
+    width: 400px;   
+}
+.img img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border-radius: 5px;
+}
+.img{
+    width: 30%;
+    padding: 15px;
+    max-width: max-content;    
+
+}
+.titre{
+    color: white;
+    padding-left: 400px;
+        padding-right: 400px;
+    font-size: 20px;
+}

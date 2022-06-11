@@ -1,0 +1,53 @@
+<!DOCTYPE-html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulaire</title>
+    <link rel="stylesheet" href="testtableau.css" media="all" type="text/css">
+    </head>
+<body>
+  
+    <h2>Formualire de contact avec les données stockées dans le local storage</h2>
+    <form action="">
+    <fieldset>
+        <legend><strong>Genre</strong></legend>
+        <p>
+            <input type="radio" name="genre" id="homme" value="homme"/>
+            <label for="homme">Homme</label>
+        </p>
+        <p>
+            <input type="radio" name="genre" id="femme" value="femme"/>
+            <label for="homme">Femme</label>
+        </p>
+    </fieldset>
+    
+    <fieldset>
+        <legend><strong>Nom et Prénom</strong></legend>
+        <p>
+            <label for="nom">Nom :</label>
+            <input type="text" name="nom" id="nom"/>
+        </p>
+        <p>
+            <label for="prénom">Prénom  : </label>
+            <input type="text" name="prenom" id="prenom"/>
+        </p>
+        </fieldset>
+        
+        <fieldset>
+            <legend><strong>Commentaire</strong></legend>
+            <textarea name="texteFormulaire" id="texteFormulaire" cols="50" rows="30"></textarea>
+        </fieldset>
+    </form>
+    
+    <button>Envoyer formulaire</button>
+    
+    <h2>Données stockées dans le local storage</h2>
+    
+    <p>Le genre est : <span id="leGenre"></span></p>
+    <p>Le nom est : <span id="leNom"></span></p>
+    <p>Le prénom : <span id="lePrenom"></span></p>
+    <p>Le texte que vous avez entré :<span id="leTexteFormulaire"></span></p>
+    
+</body>    
+</html>

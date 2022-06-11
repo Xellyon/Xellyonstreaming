@@ -1,0 +1,13 @@
+body {
+    font-family: Arial, Helvetica,
+    sans-serif;
+    display: flex;
+    background: #4D4B4B;
+    
+}
+
+.char-container {
+    width: 50%;
+    margin: 20%;
+}
+
